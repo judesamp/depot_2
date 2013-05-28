@@ -1,0 +1,18 @@
+LOG:  database system was shut down at 2013-05-23 22:27:57 EDT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  role "sample_app" cannot be dropped because some objects depend on it
+DETAIL:  owner of database sample_app_test
+	3 objects in database sample_app_test
+	3 objects in database sample_app_development
+STATEMENT:  DROP user "sample_app"
+FATAL:  role "postgres" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  role "depot" does not exist
+FATAL:  database "depot_development" does not exist
+WARNING:  pgstat wait timeout
+WARNING:  pgstat wait timeout
+WARNING:  pgstat wait timeout
+WARNING:  pgstat wait timeout
+WARNING:  pgstat wait timeout
+WARNING:  pgstat wait timeout
