@@ -16,3 +16,9 @@ WARNING:  pgstat wait timeout
 WARNING:  pgstat wait timeout
 WARNING:  pgstat wait timeout
 WARNING:  pgstat wait timeout
+LOG:  database system was interrupted; last known up at 2013-05-24 16:57:00 EDT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/652A4B48
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
