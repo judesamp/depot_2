@@ -23,3 +23,5 @@ LOG:  redo is not required
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
 WARNING:  pgstat wait timeout
+ERROR:  argument of AND must be type boolean, not type integer at character 65
+STATEMENT:  DELETE FROM "line_items" WHERE "line_items"."cart_id" = $1 AND (2)
