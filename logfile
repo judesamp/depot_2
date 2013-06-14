@@ -29,3 +29,96 @@ WARNING:  pgstat wait timeout
 WARNING:  pgstat wait timeout
 WARNING:  pgstat wait timeout
 WARNING:  pgstat wait timeout
+ERROR:  cached plan must not change result type
+STATEMENT:  SELECT "line_items".* FROM "line_items"  WHERE "line_items"."cart_id" = $1
+ERROR:  cached plan must not change result type
+STATEMENT:  SELECT  "line_items".* FROM "line_items"  WHERE "line_items"."cart_id" = $1 AND "line_items"."product_id" = 2 LIMIT 1
+ERROR:  cached plan must not change result type
+STATEMENT:  SELECT  "line_items".* FROM "line_items"  WHERE "line_items"."cart_id" = $1 AND "line_items"."product_id" = 3 LIMIT 1
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:08', '2013-06-12 20:03:08', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:09', '2013-06-12 20:03:09', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:09', '2013-06-12 20:03:09', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:09', '2013-06-12 20:03:09', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:09', '2013-06-12 20:03:09', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  column "order" of relation "line_items" does not exist at character 27
+STATEMENT:  INSERT INTO "line_items" ("order", "created_at", "updated_at", "id", "product_id") VALUES ('one', '2013-06-12 20:03:11', '2013-06-12 20:03:11', 980190962, 207281424)
+ERROR:  cached plan must not change result type
+STATEMENT:  SELECT "line_items".* FROM "line_items"  WHERE "line_items"."cart_id" = $1
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-06-12 22:56:00 EDT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "judesamp" does not exist
+ERROR:  syntax error at or near "select" at character 22
+STATEMENT:  select * from orders
+	select * from orders;
