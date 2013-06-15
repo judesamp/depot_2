@@ -122,3 +122,8 @@ FATAL:  database "judesamp" does not exist
 ERROR:  syntax error at or near "select" at character 22
 STATEMENT:  select * from orders
 	select * from orders;
+FATAL:  database "db_development" does not exist
+FATAL:  role "db_development" does not exist
+ERROR:  syntax error at or near "SELECT" at character 21
+STATEMENT:  SELECT * FROM USERS
+	SELECT * FROM ORDERS;
