@@ -127,3 +127,19 @@ FATAL:  role "db_development" does not exist
 ERROR:  syntax error at or near "SELECT" at character 21
 STATEMENT:  SELECT * FROM USERS
 	SELECT * FROM ORDERS;
+WARNING:  pgstat wait timeout
+WARNING:  pgstat wait timeout
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-06-15 18:59:29 EDT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-06-17 17:09:12 EDT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
